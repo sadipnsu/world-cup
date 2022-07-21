@@ -9,7 +9,8 @@ body{
     background-color: #161616;;
     border-radius: 30px;
     margin: 50px;
-    margin-left: 7%;
+    margin-left: 6%;
+    margin-bottom: 130px;
 }
 .top-banner-left{
     width: 530px;
@@ -49,9 +50,193 @@ body{
     font-size: 18px;
     text-align: center;
 }
+.fa-chevron-right{
+    font-size: 20px;
+}
 .top-banner-right img{
     width: 581px;
     height: 613px;
     padding-left: 70px;
     padding-top: 36px;
+}
+
+/* Second banner style */
+button{
+    width: 242px;
+    height: 60px;
+    border-radius: 10px;
+    margin-bottom: 8%;
+    background-color: #FFFFFF;
+}
+.second-banner{
+    width: 1320px;
+    background-color:#FFFFFF;
+    border-radius: 30px;
+    margin: 50px;
+    margin-left: 1%;
+    margin-bottom: 430px;
+}
+.second-banner-left{
+    margin-left: 70px;
+    margin-top: 0;
+}
+.blogs-buttons{
+    width: 280px;
+    height: 262px;
+    background-color: #161616;
+    padding-left: 3%;
+    padding-top: 4%;
+    border-radius: 10px;
+    border: 0;
+
+}
+.single-button{
+    padding-left: 5.5%;
+    padding-top: 6%;
+}
+.single-button a{
+    text-decoration: none; 
+}
+.text-font{
+    color: #161616;
+    font-size: 15px;
+    font-weight: 500;
+    line-height: 30px;
+    text-align: center;
+}
+#button-color{
+   background-color: #DD0000;
+   border: 1px solid #DD0000;
+}
+#button-color .text-font{
+    color: #FFFFFF;
+}
+.second-banner{
+    max-height: ;
+}
+.second-banner-right{
+    width: 312px;
+    height: 362px;
+    padding: 30px;
+    margin-top: 0;
+}
+.second-banner{
+    display: flex;
+}
+.transfer-players{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    grid-row-gap: 30px;
+    grid-column-gap: 25px;
+    padding-left: 24px;
+    margin-bottom: 330px;
+}
+
+.transfer-players .transfer-player img{
+    width: 75%;
+    height: 175px;
+}
+.player-banner{
+  margin-top: -29px;
+}
+.transfer-button #button-transfer { 
+    width: 120px;
+    height: 32px;
+    margin-top: 12px;
+    margin-bottom: 8px;
+}
+.transfer-detail{
+    align-items: center;
+    display: flex;
+}
+.transfer-button{
+    padding-left: 20px;;
+}
+.transfer-title, .transfer-detail{
+    padding-left: 20px;
+    margin-bottom: 20px;
+}
+#button-transfer{
+    border: 1.5px solid #161616;
+}
+
+.transfer-button a{
+    text-decoration: none;
+    color:#161616;
+ }
+.transfer-detail{
+    justify-content:space-evenly;
+    margin-left: -6rem;
+    font-weight: 200;
+}
+ .transfer-duration span{
+    flex-direction: row;
+    float:inline-end;
+    justify-content: space-between;
+    margin-left: 7px;
+ }
+ .transfer-chat span{
+    flex-direction: row;
+    float: inline-end;
+    margin-left: 7px;
+ }
+ .transfer-duration, .transfer-chat{
+    font-weight: 100;
+    font-size: 18px;
+    font-weight: normal;
+ }
+
+footer{
+    width: 1498px;
+    height: 404px;
+    left: 0;
+    position: absolute;
+    padding-bottom: 10px;
+    padding-left: 40px;
+    border: 115px solid black;
+    text-align: center;
+    color: #FFFFFF;;
+    background-color: #161616;
+    margin-top: 300px;
+    border: none;
+}
+.footer-font{
+    text-align: center;
+    font-size: ;
+    width: 95px;
+    height: 60px;
+    left: 753px;
+    padding-top: 110px;
+    position: absolute;
+    font-size: 40px;
+    font-weight: 700;
+}
+ hr{
+    width: 1320px;
+    height: 0;
+    color: #ffffff2e;
+    margin-top: 235px;
+    position: relative;
+    text-decoration: none;
+    margin-bottom: 50px;
+}
+.footer-list{
+    display: flex;
+    justify-content: space-evenly;
+    list-style: none;
+    padding-left: 17%;
+    padding-right: 17%;
+    margin-bottom: 50px;
+}
+.footer-list li{
+    font-weight: 500;
+    font-size: 17px;
+}
+.icon {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    padding-left: 40%;
+    padding-right: 40%;
+    font-size: larger;
 }
